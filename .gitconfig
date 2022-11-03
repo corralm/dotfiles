@@ -1,0 +1,18 @@
+[user]
+	email = corraljrmiguel@gmail.com
+	name = Miguel Corral Jr
+[core]
+	excludesfile = /Users/miguel/.gitignore_global
+	editor = code --wait
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[help]
+	autocorrect = 1
+[init]
+	defaultBranch = main
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
