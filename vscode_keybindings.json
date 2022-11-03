@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+tab",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+space",
+        "command": "-editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "closeParameterHints",
+        "when": "editorFocus && parameterHintsVisible"
+    },
+    {
+        "key": "shift+escape",
+        "command": "-closeParameterHints",
+        "when": "editorFocus && parameterHintsVisible"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "python.execInTerminal-icon"
+    }
+]
