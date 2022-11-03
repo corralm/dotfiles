@@ -1,5 +1,24 @@
-# Removes long prefixes in your shell prompt
+# Removes long prefixes in the shell prompt
 env_prompt: ({name})
 
-# Controls whether or not conda activates your base environment when it first starts up 
+# Controls whether or not conda activates the base environment when it starts up 
 auto_activate_base: false
+
+# Search only the channels below
+channels:
+  - conda-forge
+  - defaults
+
+# Installs the packages below when creating environments 
+create_default_packages:
+  - jupyterlab
+  - numpy
+  - pandas
+  - plotly
+  - pytest
+  - python
+  - scikit-learn
+  - scrapy
+  - selenium
+  - sqlalchemy
+  - tqdm
