@@ -1,0 +1,2 @@
+env_prompt: ({name})
+auto_activate_base: false
