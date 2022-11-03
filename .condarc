@@ -1,2 +1,5 @@
+# Removes long prefixes in your shell prompt
 env_prompt: ({name})
+
+# Controls whether or not conda activates your base environment when it first starts up 
 auto_activate_base: false
