@@ -1,5 +1,5 @@
-# Settings
-Settings and configurations across my machines.
+# Miguel's Dotfiles and Settings
+**Warning**: Don’t blindly use my settings unless you know what you're doing 😄.
 
 - [.condarc](/.condarc):  Configures various aspects of conda.
 - [.gitconfig](/.gitconfig): Configures git globally.
