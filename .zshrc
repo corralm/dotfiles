@@ -3,6 +3,7 @@ ZSH_THEME="robbyrussell"
 
 # plugins
 plugins=(
+  autoupdate
   git
   macos
   vscode
