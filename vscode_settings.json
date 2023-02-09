@@ -23,7 +23,6 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "jupyter.experiments.enabled": false,
-    "jupyter.showOnlyOneTypeOfKernel": false,
     "notebook.breadcrumbs.showCodeCells": false,
     "notebook.consolidatedRunButton": true,
     "notebook.insertToolbarLocation": "hidden",
