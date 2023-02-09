@@ -12,6 +12,7 @@ channels:
 # Installs the packages below when creating environments 
 create_default_packages:
   - jupyterlab
+  - nodejs
   - numpy
   - pandas
   - plotly
