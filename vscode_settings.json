@@ -1,4 +1,5 @@
 {
+    "breadcrumbs.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
@@ -23,7 +24,6 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "jupyter.experiments.enabled": false,
-    "notebook.breadcrumbs.showCodeCells": false,
     "notebook.consolidatedRunButton": true,
     "notebook.insertToolbarLocation": "hidden",
     "notebook.showCellStatusBar": "hidden",
