@@ -27,6 +27,7 @@
     "notebook.consolidatedRunButton": true,
     "notebook.insertToolbarLocation": "hidden",
     "notebook.showCellStatusBar": "hidden",
+    "notebook.output.wordWrap": true,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.typeCheckingMode": "basic",
     "python.condaPath": "/opt/miniconda3/envs/env",
