@@ -33,6 +33,7 @@
     "python.condaPath": "/opt/miniconda3/envs/env",
     "python.defaultInterpreterPath": "/opt/miniconda3/envs/env/bin/python",
     "window.nativeTabs": true,
+    "window.autoDetectColorScheme": true,
     "window.zoomLevel": 1,
     "workbench.colorTheme": "JupyterLab Light",
     "workbench.iconTheme": "material-icon-theme",
