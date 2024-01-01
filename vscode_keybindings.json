@@ -23,5 +23,13 @@
     {
         "key": "cmd+enter",
         "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "cmd+numpad0",
+        "command": "-workbench.action.zoomReset"
     }
 ]
