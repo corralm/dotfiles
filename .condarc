@@ -15,11 +15,10 @@ create_default_packages:
   - nodejs
   - numpy
   - pandas
-  - plotly
-  - pytest
+#  - plotly
+#  - pytest
   - python
   - scikit-learn
-  - scrapy
-  - selenium
+#  - scrapy
+#  - selenium
   - sqlalchemy
-  - tqdm
