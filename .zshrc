@@ -30,8 +30,9 @@ alias la="ls -lAFhot"   # List all files as a long list, show size, type, human-
 cd() { builtin cd "$@"; ls; }
 glf() { glog --all --grep="$1"; }
 
-# Set PATH, MANPATH, etc., for Homebrew.
+# Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
+[[ -d /opt/homebrew/share/zsh/site-functions ]] && fpath+=(/opt/homebrew/share/zsh/site-functions)
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
