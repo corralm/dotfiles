@@ -25,6 +25,7 @@ alias zshrc='code ~/.zshrc';
 alias l="ls -1F | nl"   # List files sorted in a single column
 alias ll="ls -lFhot"    # List files as long list, show size, type, human-readable (sorted)
 alias la="ls -lAFhot"   # List all files as a long list, show size, type, human-readable (sorted)
+alias blobby='aws --endpoint-url https://blob.mr3.simcloud.apple.com --cli-read-timeout 300 --profile blobby'
 
 # custom functions
 cd() { builtin cd "$@"; ls; }
